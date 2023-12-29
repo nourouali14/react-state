@@ -9,9 +9,9 @@ export default class Profile extends Component {
        <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src={this.props.img} />
       <Card.Body>
-        <Card.Title> {this.props.name} </Card.Title>
+        <Card.Title> checkpoint's card </Card.Title>
         <Card.Text>
-         {this.props.bio}
+         this is a card
         </Card.Text>
         <Counter/>
 
